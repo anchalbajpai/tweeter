@@ -1,0 +1,15 @@
+{% extends "layout.html" %} 
+{%block title%}
+ tweeter 
+{%endblock%} 
+
+{%block content%}
+<h2>Search Results:</h2>
+
+        {% for result in tweet %}
+        <br>
+        {{result.text}} - @{{result.user}}
+        </br>
+    {%endfor%}
+  
+{%endblock%}

@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+
+{%block title%}
+ tweeter
+{%endblock%}
+
+{%block content%}
+
+<h1 class="text-center mt-4">Welcome to my project</h1>
+
+<h2 class="text-center mt-4">
+    {%if form.instance.pk%}
+    Edit tweet
+    {%else%}
+    Create a tweet
+    {%endif%}
+    <form method="post" enctype="multipart/form-data">
+        {%csrf_token%}
+        {{form.as_p}}
+        <button class="btn btn-warning" type="submit">Post</button>
+    </form>
+    <a href="{%url 'tweet_list'%}">back to tweet list</a>
+</h2>
+
+{%endblock%}
