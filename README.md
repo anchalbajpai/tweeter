@@ -6,3 +6,5 @@ It enables a user to capable of :
 3. Edit old blog if logged in.
 4. View all the blogs.
 5. Search for blogs using words in the blog.
+
+**Home page is at localhost/tweet**
