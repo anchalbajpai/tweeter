@@ -1,11 +1,15 @@
 **A Microblogging website implemented with Django backend framework, jinja template engine, and CSS + HTML with the BootStrap Library for frontend.**
 
-It enables a user to capable of : 
-1. Add new blog if logged in.
-2. Delete old blog if logged in.
-3. Edit old blog if logged in.
+It enables a user to : 
+1. Add a new blog if logged in.
+2. Delete the old blog if logged in.
+3. Edit an old blog if logged in.
 4. View all the blogs.
-5. Search for blogs using words in the blog.
+5. Search for blogs using keywords in the blog.
+
+Admin can :
+1. Add/delete users.
+2. Add/delete/edit blogs.
 
 **Home page is at localhost/tweet**
 
