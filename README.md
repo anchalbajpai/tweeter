@@ -1,4 +1,4 @@
-**A Microblogging website implemented with Django backend framework, jinja template engine, and CSS + HTML with the BootStrap Library for frontend.**
+**A Microblogging website implemented with Django backend framework and CSS + HTML with the BootStrap Library for frontend.**
 
 It enables a user to : 
 1. Add a new blog if logged in.
