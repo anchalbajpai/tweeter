@@ -8,3 +8,5 @@ It enables a user to capable of :
 5. Search for blogs using words in the blog.
 
 **Home page is at localhost/tweet**
+
+You need a static folder in the root directory to use this.
